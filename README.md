@@ -43,6 +43,19 @@ Calculate a pleasing layout based on the "Golden Mean" using Bootstrap 4 + JQuer
 }
 ```
 
+####HTML
+```HTML
+<div class="container phi-container">
+ <div class="row row-eq-height">
+  <div id="phi">
+   <div class="col phi-right"></div>
+   <div class="col phi-left"></div>
+  </div>
+ </div>
+ <p>#phi container element size: <span class="phi-total"></span></p>
+</div>
+```
+
 ####JQuery
 ```HTML
 <script>		
